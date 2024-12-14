@@ -4,7 +4,7 @@
   &#xa0;
 
   <!-- <a href="https://number_position_finder.netlify.app">Demo</a> -->
-  <img src="./result.jpeg" alt="Number_Position_Finder result image " />
+  
 </div>
 
 <h1 align="center">Number_Position_Finder</h1>
@@ -34,7 +34,7 @@
 <hr> -->
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
@@ -45,9 +45,9 @@
 
 <br>
 
-## :dart: About ##
+##  About ##
 
-Describe your project
+just guessing the number by it's index and value
 
 ## :sparkles: Features ##
 
@@ -89,5 +89,8 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 Made with :heart: by <a href="https://github.com/kartheeswaranAR" target="_blank">Kartheeswaran</a>
 
 &#xa0;
+
+resultant : 
+<img src="./result.jpeg" alt="Number_Position_Finder result image " />
 
 <a href="#top">Back to top</a>
