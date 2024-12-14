@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Position Finder</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="root">
+        <div id="container">
+            <h1>Number Position Finder</h1>
+            <br>
+            <div id="tablecontainer">
+                <table>
+                    <tr>
+                        <th>Index</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>0</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <label>Enter your favorite number between 3-19:</label>
+            <input type="number" id="usr_input">
+            <p id="result">
+                Index: [0, 0] || value: [0, 0]
+            </p>
+            <br>
+            <span></span>
+            <button  onclick="findnumberPosition()">Submit</button>
+            <button type="reset" value="Reset" onclick="resetFields()">Reset</button>
+        </div>
+    </div>
+</body>
+</html>

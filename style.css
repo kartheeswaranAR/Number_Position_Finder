@@ -1,0 +1,81 @@
+:root{
+    margin: 0;
+    padding: 0;
+    background-color: #00b1b1;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    background-color: black;
+}
+
+
+#tablecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 12px 12px 12px 12px;
+    padding: 12px 70px 12px 70px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    color: azure;
+}
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #fffefe;
+}
+
+
+label{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 12px  3.5em ;
+    padding: 12px  12px ;
+}
+#usr_input{
+    font-size: 1.5rem;
+    caret-color: #00b1b1;
+    border: 1px solid #008b8b;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin: 12px ;
+    padding: 12px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button{
+    font-size: 1.5rem;
+    width: 200px;
+    background-color: aquamarine;
+    color: #036969;
+    border: 1px solid #00b1b1;
+    border-radius: 12px;
+    margin: 12px 50px;
+    padding: 12px 70px;
+}
+
+#result{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #00b1b1;
+}
