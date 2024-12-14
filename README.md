@@ -77,13 +77,7 @@ $ git clone https://github.com/kartheeswaranAR/number_position_finder
 # Access
 $ cd number_position_finder
 
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+$ run the live server
 ```
 
 ## :memo: License ##
