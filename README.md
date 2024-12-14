@@ -4,6 +4,7 @@
   &#xa0;
 
   <!-- <a href="https://number_position_finder.netlify.app">Demo</a> -->
+  <img src="./result.jpeg" alt="Number_Position_Finder result image " />
 </div>
 
 <h1 align="center">Number_Position_Finder</h1>
